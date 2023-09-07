@@ -1,0 +1,75 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container
+{
+    min-height:500px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    margin:50px;
+    background-image: url(../img/1.jpg);
+    object-fit: cover;
+}
+h1
+{
+    margin:30px;
+    text-align: center;
+    display: block;
+}
+
+
+.input-group
+{
+    
+    width:95%;
+    height:auto;
+    margin:1px auto;
+}
+#input{
+    width:80%;
+    height: 40px;
+    margin:5px 0px 5px 2px;
+}
+#btn-add
+{
+    margin:5px 0;
+    width: 60px;
+    height:40px ;
+}
+button{
+    background: rgb(100, 243, 100);
+    border:none;
+}
+ul
+{
+    width:80%;
+    
+    height: auto;
+    margin: 10px auto;
+    
+
+}
+ul li button{
+
+    position: absolute;
+    right:0;
+    top:30%;
+    width:20%;
+    height:20px;
+    margin-top: 0;
+    margin-right: 5px;
+}
+ul li{
+    position: relative;
+
+}
